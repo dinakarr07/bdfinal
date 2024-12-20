@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["dinakarr07 <dinakarreddy4342@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polygon = "^1.2.5"
+config = "^0.5.1"
+urllib3 = "^2.2.3"
+pandas = "^2.2.3"
+datetime = "^5.5"
+ratelimit = "^2.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+polygon-api-client = "^1.14.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
